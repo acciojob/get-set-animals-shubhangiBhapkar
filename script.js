@@ -1,6 +1,6 @@
 //complete this code
 class Animal {
-	Animal(species){
+	constructor(species){
 		this.species = species;
 	}
 	get getSpecies(){
@@ -16,7 +16,6 @@ class Dog extends Animal {
 		super(species);
 	}
 	bark(){
-		
 		console.log("woof");
 }
 }
@@ -26,7 +25,6 @@ class Cat extends Animal {
 		super(species);
 	}
 	purr(){
-		
 		console.log("purr");
 	}
 }
